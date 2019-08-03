@@ -1,0 +1,109 @@
+﻿Build started 10/31/2016 4:04:31 PM.
+     1>Project "C:\Users\u7ashtuk\Desktop\Files\DefectsViewer\DefectsViewer\Shaders\Shaders.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\DefectsViewer.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       GenerateTargetFrameworkMonikerAttribute:
+       Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Z7 /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\PresentationCore.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\PresentationFramework.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\WindowsBase.dll" /analyze- /errorReport:prompt Background.cpp DefectViewer.cpp OpenGLControl.cpp optionsreader.cpp Pointer.cpp RenderScene.cpp reportreader.cpp Shaders.cpp StlParser.cpp TextureOpenIL.cpp Widget.cpp Win_OpenGLApp.cpp /clr:nostdlib 
+         Background.cpp
+         DefectViewer.cpp
+         OpenGLControl.cpp
+         optionsreader.cpp
+         Pointer.cpp
+         RenderScene.cpp
+         reportreader.cpp
+         Shaders.cpp
+         StlParser.cpp
+         TextureOpenIL.cpp
+         Widget.cpp
+         Win_OpenGLApp.cpp
+         Generating Code...
+         All outputs are up-to-date.
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\u7ashtuk\Desktop\Files\DefectsViewer\DefectsViewer\Debug\DefectsViewer.exe" /INCREMENTAL /NOLOGO glew32s.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\DefectsViewer.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\u7ashtuk\Desktop\Files\DefectsViewer\DefectsViewer\Debug\DefectsViewer.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\Background.obj
+         Debug\DefectViewer.obj
+         Debug\OpenGLControl.obj
+         Debug\optionsreader.obj
+         Debug\Pointer.obj
+         Debug\RenderScene.obj
+         Debug\reportreader.obj
+         Debug\Shaders.obj
+         Debug\StlParser.obj
+         Debug\TextureOpenIL.obj
+         Debug\Widget.obj
+         Debug\Win_OpenGLApp.obj
+         "Debug\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+     1>Background.obj : warning LNK4049: locally defined symbol ___glewBindVertexArray imported
+     1>Pointer.obj : warning LNK4049: locally defined symbol ___glewBindVertexArray imported
+     1>Widget.obj : warning LNK4049: locally defined symbol ___glewBindVertexArray imported
+     1>Background.obj : warning LNK4049: locally defined symbol ___glewUniformMatrix4fv imported
+     1>Pointer.obj : warning LNK4049: locally defined symbol ___glewUniformMatrix4fv imported
+     1>Widget.obj : warning LNK4217: locally defined symbol ___glewUniformMatrix4fv imported in function "[T2M] public: unsigned int __thiscall CShaderProgram::GetProgramID(void)" (__t2m@?GetProgramID@CShaderProgram@@QAEIXZ)
+     1>Background.obj : warning LNK4049: locally defined symbol ___glewUniform1i imported
+     1>Widget.obj : warning LNK4049: locally defined symbol ___glewUniform1i imported
+     1>Background.obj : warning LNK4049: locally defined symbol ___glewActiveTexture imported
+     1>Background.obj : warning LNK4049: locally defined symbol ___glewGenerateMipmap imported
+     1>Background.obj : warning LNK4049: locally defined symbol ___glewGetUniformLocation imported
+     1>Pointer.obj : warning LNK4049: locally defined symbol ___glewGetUniformLocation imported
+     1>Widget.obj : warning LNK4049: locally defined symbol ___glewGetUniformLocation imported
+     1>Background.obj : warning LNK4049: locally defined symbol ___glewVertexAttribPointer imported
+     1>Pointer.obj : warning LNK4217: locally defined symbol ___glewVertexAttribPointer imported in function "[T2M] public: static void __clrcall std::_String_const_iterator<char,struct std::char_traits<char>,class std::allocator<char> >::<MarshalCopy>(class std::_String_const_iterator<char,struct std::char_traits<char>,class std::allocator<char> > *,class std::_String_const_iterator<char,struct std::char_traits<char>,class std::allocator<char> > *)" (__t2m@?<MarshalCopy>@?$_String_const_iterator@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@SMXPAV12@0@Z)
+     1>Widget.obj : warning LNK4049: locally defined symbol ___glewVertexAttribPointer imported
+     1>Background.obj : warning LNK4049: locally defined symbol ___glewEnableVertexAttribArray imported
+     1>Pointer.obj : warning LNK4049: locally defined symbol ___glewEnableVertexAttribArray imported
+     1>Widget.obj : warning LNK4049: locally defined symbol ___glewEnableVertexAttribArray imported
+     1>Background.obj : warning LNK4049: locally defined symbol ___glewGetAttribLocation imported
+     1>Pointer.obj : warning LNK4049: locally defined symbol ___glewGetAttribLocation imported
+     1>Widget.obj : warning LNK4049: locally defined symbol ___glewGetAttribLocation imported
+     1>Background.obj : warning LNK4049: locally defined symbol ___glewBufferData imported
+     1>Pointer.obj : warning LNK4049: locally defined symbol ___glewBufferData imported
+     1>Widget.obj : warning LNK4049: locally defined symbol ___glewBufferData imported
+     1>Background.obj : warning LNK4049: locally defined symbol ___glewBindBuffer imported
+     1>Pointer.obj : warning LNK4049: locally defined symbol ___glewBindBuffer imported
+     1>Widget.obj : warning LNK4049: locally defined symbol ___glewBindBuffer imported
+     1>Background.obj : warning LNK4049: locally defined symbol ___glewGenBuffers imported
+     1>Pointer.obj : warning LNK4049: locally defined symbol ___glewGenBuffers imported
+     1>Widget.obj : warning LNK4049: locally defined symbol ___glewGenBuffers imported
+     1>Background.obj : warning LNK4049: locally defined symbol ___glewGenVertexArrays imported
+     1>Pointer.obj : warning LNK4217: locally defined symbol ___glewGenVertexArrays imported in function "public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > & __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::assign(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,unsigned int,unsigned int)" (?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$$FQAEAAV12@ABV12@II@Z)
+     1>Widget.obj : warning LNK4049: locally defined symbol ___glewGenVertexArrays imported
+     1>OpenGLControl.obj : warning LNK4049: locally defined symbol ___wglewCreateContextAttribsARB imported
+     1>OpenGLControl.obj : warning LNK4049: locally defined symbol ___wglewChoosePixelFormatARB imported
+     1>OpenGLControl.obj : warning LNK4049: locally defined symbol ___WGLEW_ARB_pixel_format imported
+     1>OpenGLControl.obj : warning LNK4049: locally defined symbol ___WGLEW_ARB_create_context imported
+     1>Shaders.obj : warning LNK4049: locally defined symbol ___glewDeleteShader imported
+     1>Shaders.obj : warning LNK4049: locally defined symbol ___glewCreateProgram imported
+     1>Shaders.obj : warning LNK4049: locally defined symbol ___glewAttachShader imported
+     1>Shaders.obj : warning LNK4049: locally defined symbol ___glewGetProgramiv imported
+     1>Shaders.obj : warning LNK4049: locally defined symbol ___glewLinkProgram imported
+     1>Shaders.obj : warning LNK4049: locally defined symbol ___glewDeleteProgram imported
+     1>Shaders.obj : warning LNK4049: locally defined symbol ___glewUseProgram imported
+     1>Shaders.obj : warning LNK4049: locally defined symbol ___glewGetShaderiv imported
+     1>Shaders.obj : warning LNK4049: locally defined symbol ___glewCompileShader imported
+     1>Shaders.obj : warning LNK4049: locally defined symbol ___glewShaderSource imported
+     1>Shaders.obj : warning LNK4049: locally defined symbol ___glewCreateShader imported
+     1>TextureOpenIL.obj : error LNK2028: unresolved token (0A0002F9) "extern "C" int __stdcall ilGetInteger(unsigned int)" (?ilGetInteger@@$$J14YGHI@Z) referenced in function "public: static unsigned int __cdecl TextureOpenIL::loadTexFile(char const *)" (?loadTexFile@TextureOpenIL@@$$FSAIPBD@Z)
+     1>Background.obj : error LNK2028: unresolved token (0A000414) "extern "C" int __stdcall ilGetInteger(unsigned int)" (?ilGetInteger@@$$J14YGHI@Z) referenced in function "public: virtual void __thiscall Background::Init(enum Color::Names)" (?Init@Background@@$$FUAEXW4Names@Color@@@Z)
+     1>Background.obj : error LNK2028: unresolved token (0A000457) "extern "C" void __stdcall ilInit(void)" (?ilInit@@$$J10YGXXZ) referenced in function "public: virtual void __thiscall Background::Init(enum Color::Names)" (?Init@Background@@$$FUAEXW4Names@Color@@@Z)
+     1>Background.obj : error LNK2028: unresolved token (0A00047F) "extern "C" void __stdcall ilDeleteImages(unsigned int,unsigned int const *)" (?ilDeleteImages@@$$J18YGXIPBI@Z) referenced in function "public: virtual void __thiscall Background::Init(enum Color::Names)" (?Init@Background@@$$FUAEXW4Names@Color@@@Z)
+     1>Background.obj : error LNK2028: unresolved token (0A0004A4) "extern "C" unsigned char * __stdcall ilGetData(void)" (?ilGetData@@$$J10YGPAEXZ) referenced in function "public: virtual void __thiscall Background::Init(enum Color::Names)" (?Init@Background@@$$FUAEXW4Names@Color@@@Z)
+     1>Background.obj : error LNK2028: unresolved token (0A0004C2) "extern "C" void __stdcall ilBindImage(unsigned int)" (?ilBindImage@@$$J14YGXI@Z) referenced in function "public: virtual void __thiscall Background::Init(enum Color::Names)" (?Init@Background@@$$FUAEXW4Names@Color@@@Z)
+     1>Background.obj : error LNK2028: unresolved token (0A0004CC) "extern "C" void __stdcall ilGenImages(unsigned int,unsigned int *)" (?ilGenImages@@$$J18YGXIPAI@Z) referenced in function "public: virtual void __thiscall Background::Init(enum Color::Names)" (?Init@Background@@$$FUAEXW4Names@Color@@@Z)
+     1>TextureOpenIL.obj : error LNK2028: unresolved token (0A000345) "extern "C" unsigned char __stdcall ilLoadImage(wchar_t const *)" (?ilLoadImage@@$$J14YGEPB_W@Z) referenced in function "public: static unsigned int __cdecl TextureOpenIL::loadTexFile(char const *)" (?loadTexFile@TextureOpenIL@@$$FSAIPBD@Z)
+     1>TextureOpenIL.obj : error LNK2028: unresolved token (0A000364) "extern "C" unsigned char __stdcall ilConvertImage(unsigned int,unsigned int)" (?ilConvertImage@@$$J18YGEII@Z) referenced in function "public: static unsigned int __cdecl TextureOpenIL::loadTexFile(char const *)" (?loadTexFile@TextureOpenIL@@$$FSAIPBD@Z)
+     1>Background.obj : error LNK2019: unresolved external symbol "extern "C" void __stdcall ilDeleteImages(unsigned int,unsigned int const *)" (?ilDeleteImages@@$$J18YGXIPBI@Z) referenced in function "public: virtual void __thiscall Background::Init(enum Color::Names)" (?Init@Background@@$$FUAEXW4Names@Color@@@Z)
+     1>Background.obj : error LNK2019: unresolved external symbol "extern "C" unsigned char * __stdcall ilGetData(void)" (?ilGetData@@$$J10YGPAEXZ) referenced in function "public: virtual void __thiscall Background::Init(enum Color::Names)" (?Init@Background@@$$FUAEXW4Names@Color@@@Z)
+     1>Background.obj : error LNK2019: unresolved external symbol "extern "C" int __stdcall ilGetInteger(unsigned int)" (?ilGetInteger@@$$J14YGHI@Z) referenced in function "public: virtual void __thiscall Background::Init(enum Color::Names)" (?Init@Background@@$$FUAEXW4Names@Color@@@Z)
+     1>TextureOpenIL.obj : error LNK2001: unresolved external symbol "extern "C" int __stdcall ilGetInteger(unsigned int)" (?ilGetInteger@@$$J14YGHI@Z)
+     1>Background.obj : error LNK2019: unresolved external symbol "extern "C" void __stdcall ilBindImage(unsigned int)" (?ilBindImage@@$$J14YGXI@Z) referenced in function "public: virtual void __thiscall Background::Init(enum Color::Names)" (?Init@Background@@$$FUAEXW4Names@Color@@@Z)
+     1>Background.obj : error LNK2019: unresolved external symbol "extern "C" void __stdcall ilGenImages(unsigned int,unsigned int *)" (?ilGenImages@@$$J18YGXIPAI@Z) referenced in function "public: virtual void __thiscall Background::Init(enum Color::Names)" (?Init@Background@@$$FUAEXW4Names@Color@@@Z)
+     1>Background.obj : error LNK2019: unresolved external symbol "extern "C" void __stdcall ilInit(void)" (?ilInit@@$$J10YGXXZ) referenced in function "public: virtual void __thiscall Background::Init(enum Color::Names)" (?Init@Background@@$$FUAEXW4Names@Color@@@Z)
+     1>TextureOpenIL.obj : error LNK2019: unresolved external symbol "extern "C" unsigned char __stdcall ilConvertImage(unsigned int,unsigned int)" (?ilConvertImage@@$$J18YGEII@Z) referenced in function "public: static unsigned int __cdecl TextureOpenIL::loadTexFile(char const *)" (?loadTexFile@TextureOpenIL@@$$FSAIPBD@Z)
+     1>TextureOpenIL.obj : error LNK2019: unresolved external symbol "extern "C" unsigned char __stdcall ilLoadImage(wchar_t const *)" (?ilLoadImage@@$$J14YGEPB_W@Z) referenced in function "public: static unsigned int __cdecl TextureOpenIL::loadTexFile(char const *)" (?loadTexFile@TextureOpenIL@@$$FSAIPBD@Z)
+     1>C:\Users\u7ashtuk\Desktop\Files\DefectsViewer\DefectsViewer\Debug\DefectsViewer.exe : fatal error LNK1120: 17 unresolved externals
+     1>Done Building Project "C:\Users\u7ashtuk\Desktop\Files\DefectsViewer\DefectsViewer\Shaders\Shaders.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:08.27

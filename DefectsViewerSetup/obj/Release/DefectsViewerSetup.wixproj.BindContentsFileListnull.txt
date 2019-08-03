@@ -1,0 +1,9 @@
+..\Shaders\models\customer.stl
+..\Release\DefectsViewer.exe
+..\Shaders\DevIL.dll
+..\Shaders\images\DefectViewerLegends.bmp
+..\Shaders\options.xml
+..\Shaders\models\pointer1.stl
+..\Shaders\models\pointer2.stl
+..\Shaders\shader.frag
+..\Shaders\shader.vert

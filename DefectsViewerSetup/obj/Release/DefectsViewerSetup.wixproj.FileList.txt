@@ -1,0 +1,8 @@
+C:\Users\u7ashtuk\Desktop\Files\DefectsViewer\Shaders\DefectsViewerSetup\bin\Release\DefectsViewerSetup.msi
+C:\Users\u7ashtuk\Desktop\Files\DefectsViewer\Shaders\DefectsViewerSetup\bin\Release\DefectsViewerSetup.wixpdb
+obj\Release\Product.wixobj
+obj\Release\DefectsViewerSetup.wixproj.BindContentsFileListnull.txt
+obj\Release\DefectsViewerSetup.wixproj.BindOutputsFileListnull.txt
+obj\Release\DefectsViewerSetup.wixproj.BindBuiltOutputsFileListnull.txt
+C:\Users\u7ashtuk\Desktop\Files\DefectsViewer\DefectsViewer\DefectsViewerSetup\bin\Release\DefectsViewerSetup.msi
+C:\Users\u7ashtuk\Desktop\Files\DefectsViewer\DefectsViewer\DefectsViewerSetup\bin\Release\DefectsViewerSetup.wixpdb

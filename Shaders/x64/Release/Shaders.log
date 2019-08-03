@@ -1,0 +1,56 @@
+﻿Build started 10/5/2016 4:20:06 PM.
+     1>Project "C:\Users\u7ashtuk\Desktop\Files\DefectsViewer\Shaders\Shaders\Shaders.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "x64\Release\DefectsViewer.unsuccessfulbuild".
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /Z7 /clr /nologo /W3 /WX- /O2 /Oi /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHa /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc100.pdb" /Gd /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\PresentationCore.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\PresentationFramework.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\WindowsBase.dll" /errorReport:prompt OpenGLControl.cpp RenderScene.cpp Shaders.cpp StlParser.cpp Widget.cpp Win_OpenGLApp.cpp
+         OpenGLControl.cpp
+     1>c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.0\system.core.dll : warning C4945: 'ExtensionAttribute' : cannot import symbol from 'c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.0\system.core.dll': as 'System::Runtime::CompilerServices::ExtensionAttribute' has already been imported from another assembly 'mscorlib'
+                 c:\windows\microsoft.net\framework\v4.0.30319\mscorlib.dll : see declaration of 'System::Runtime::CompilerServices::ExtensionAttribute'
+                 first seen type is used; re-order imported assemblies to use the current type
+                 This diagnostic occurred while importing type 'System.Runtime.CompilerServices.ExtensionAttribute' from assembly 'System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+     1>OpenGLControl.cpp(166): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>OpenGLControl.cpp(167): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+         RenderScene.cpp
+     1>c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.0\system.core.dll : warning C4945: 'ExtensionAttribute' : cannot import symbol from 'c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.0\system.core.dll': as 'System::Runtime::CompilerServices::ExtensionAttribute' has already been imported from another assembly 'mscorlib'
+                 c:\windows\microsoft.net\framework\v4.0.30319\mscorlib.dll : see declaration of 'System::Runtime::CompilerServices::ExtensionAttribute'
+                 first seen type is used; re-order imported assemblies to use the current type
+                 This diagnostic occurred while importing type 'System.Runtime.CompilerServices.ExtensionAttribute' from assembly 'System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+         Shaders.cpp
+     1>c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.0\system.core.dll : warning C4945: 'ExtensionAttribute' : cannot import symbol from 'c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.0\system.core.dll': as 'System::Runtime::CompilerServices::ExtensionAttribute' has already been imported from another assembly 'mscorlib'
+                 c:\windows\microsoft.net\framework\v4.0.30319\mscorlib.dll : see declaration of 'System::Runtime::CompilerServices::ExtensionAttribute'
+                 first seen type is used; re-order imported assemblies to use the current type
+                 This diagnostic occurred while importing type 'System.Runtime.CompilerServices.ExtensionAttribute' from assembly 'System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+     1>Shaders.cpp(23): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+         StlParser.cpp
+     1>c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.0\system.core.dll : warning C4945: 'ExtensionAttribute' : cannot import symbol from 'c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.0\system.core.dll': as 'System::Runtime::CompilerServices::ExtensionAttribute' has already been imported from another assembly 'mscorlib'
+                 c:\windows\microsoft.net\framework\v4.0.30319\mscorlib.dll : see declaration of 'System::Runtime::CompilerServices::ExtensionAttribute'
+                 first seen type is used; re-order imported assemblies to use the current type
+                 This diagnostic occurred while importing type 'System.Runtime.CompilerServices.ExtensionAttribute' from assembly 'System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+         Widget.cpp
+     1>c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.0\system.core.dll : warning C4945: 'ExtensionAttribute' : cannot import symbol from 'c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.0\system.core.dll': as 'System::Runtime::CompilerServices::ExtensionAttribute' has already been imported from another assembly 'mscorlib'
+                 c:\windows\microsoft.net\framework\v4.0.30319\mscorlib.dll : see declaration of 'System::Runtime::CompilerServices::ExtensionAttribute'
+                 first seen type is used; re-order imported assemblies to use the current type
+                 This diagnostic occurred while importing type 'System.Runtime.CompilerServices.ExtensionAttribute' from assembly 'System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+         Win_OpenGLApp.cpp
+     1>c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.0\system.core.dll : warning C4945: 'ExtensionAttribute' : cannot import symbol from 'c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.0\system.core.dll': as 'System::Runtime::CompilerServices::ExtensionAttribute' has already been imported from another assembly 'mscorlib'
+                 c:\windows\microsoft.net\framework\v4.0.30319\mscorlib.dll : see declaration of 'System::Runtime::CompilerServices::ExtensionAttribute'
+                 first seen type is used; re-order imported assemblies to use the current type
+                 This diagnostic occurred while importing type 'System.Runtime.CompilerServices.ExtensionAttribute' from assembly 'System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+         Generating Code...
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\u7ashtuk\Desktop\Files\DefectsViewer\Shaders\x64\Release\DefectsViewer.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\Release\DefectsViewer.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\u7ashtuk\Desktop\Files\DefectsViewer\Shaders\x64\Release\DefectsViewer.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\u7ashtuk\Desktop\Files\DefectsViewer\Shaders\x64\Release\DefectsViewer.lib" /MACHINE:X64 x64\Release\OpenGLControl.obj
+         x64\Release\RenderScene.obj
+         x64\Release\Shaders.obj
+         x64\Release\StlParser.obj
+         x64\Release\Widget.obj
+         x64\Release\Win_OpenGLApp.obj
+     1>LINK : fatal error LNK1104: cannot open file 'glew32s.lib'
+     1>Done Building Project "C:\Users\u7ashtuk\Desktop\Files\DefectsViewer\Shaders\Shaders\Shaders.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:04.20

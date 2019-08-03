@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<application>
+  <windows x="0" y="0" width="1920" height="1080"/>
+  <part file="models\customer.stl"/>
+  <pointer file="models\pointer1.stl"/>
+  <legends file="images\DefectViewerLegends.bmp"/>
+  <defects>
+    <defect name="scratch" color="red"/>
+    <defect name="orangepeel" color="orange"/>
+    <defect name="straightgapedgedetection" color="yellow"/>
+    <defect name="cornergapedgedetection" color="green"/>
+    <defect name="cornergapdetection" color="lightblue"/>
+    <defect name="waviness" color="blue"/>
+    <defect name="bossreadthru" color="magenta"/>
+   </defects> 
+</application>  

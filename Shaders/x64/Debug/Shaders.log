@@ -1,0 +1,23 @@
+﻿Build started 10/5/2016 4:11:56 PM.
+     1>Project "C:\Users\u7ashtuk\Desktop\Files\DefectsViewer\Shaders\Shaders\Shaders.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "x64\Debug\DefectsViewer.unsuccessfulbuild".
+       GenerateTargetFrameworkMonikerAttribute:
+       Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+       ClCompile:
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\u7ashtuk\Desktop\Files\DefectsViewer\Shaders\x64\Debug\DefectsViewer.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\Debug\DefectsViewer.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\u7ashtuk\Desktop\Files\DefectsViewer\Shaders\x64\Debug\DefectsViewer.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X64 x64\Debug\OpenGLControl.obj
+         x64\Debug\RenderScene.obj
+         x64\Debug\Shaders.obj
+         x64\Debug\StlParser.obj
+         x64\Debug\Widget.obj
+         x64\Debug\Win_OpenGLApp.obj
+         "x64\Debug\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+     1>LINK : fatal error LNK1104: cannot open file 'glew32s.lib'
+     1>Done Building Project "C:\Users\u7ashtuk\Desktop\Files\DefectsViewer\Shaders\Shaders\Shaders.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.17

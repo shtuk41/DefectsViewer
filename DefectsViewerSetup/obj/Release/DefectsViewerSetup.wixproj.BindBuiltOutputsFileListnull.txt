@@ -1,0 +1,2 @@
+C:\Users\u7ashtuk\Desktop\Files\DefectsViewer\DefectsViewer\DefectsViewerSetup\bin\Release\DefectsViewerSetup.msi
+C:\Users\u7ashtuk\Desktop\Files\DefectsViewer\DefectsViewer\DefectsViewerSetup\bin\Release\DefectsViewerSetup.wixpdb
